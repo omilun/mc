@@ -6,4 +6,4 @@ RUN \
   chmod -R g=u .mc
 
 # Runs image as a non-root user in every environment, so that it runs consistently on SnappCloud and your development environment.
-USER 1001
+USER 0
